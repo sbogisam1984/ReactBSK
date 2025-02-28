@@ -1,0 +1,53 @@
+{
+  "name": "digital-unity",
+  "version": "0.1.0",
+  "private": true,
+    "scripts": {
+        "dev": "next dev -p 3001 --experimental-https",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "startAzure": "./node_modules/next/dist/bin/next start",
+        "dev:https": "next-dev-https --https --qr --port 3001  --experimental-https"
+    },
+  "dependencies": {
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "^6.0.0",
+    "@mui/lab": "^6.0.0-beta.9",
+    "@mui/material": "^6.0.0",
+    "@mui/material-nextjs": "^6.1.6",
+    "autosuggest-highlight": "^3.3.4",
+    "font-proxima-nova": "^1.0.1",
+    "http-proxy": "^1.18.1",
+    "lodash": "^4.17.21",
+    "next": "^14.1.0",
+    "next-dev-https": "^0.13.3",
+    "plaid": "^29.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.0",
+    "react-plaid-link": "^3.6.1",
+    "yup": "^1.3.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/autosuggest-highlight": "^3.2.3",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "^14.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.4.32",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5"
+  }
+}

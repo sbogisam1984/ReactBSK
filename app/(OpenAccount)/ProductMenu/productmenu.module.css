@@ -1,0 +1,71 @@
+﻿.rowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+    margin:auto;
+    padding-top:2em;
+    
+}
+
+.containerList {
+    padding: .2em;
+}
+
+.containerListItem {
+    border: 1px solid black;
+    margin-top: 1.5em;
+}
+
+.header {
+    font-size: 2em;
+    padding-bottom: .5em;
+}
+
+.category {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+.categoryContent {
+    font-size:1.2em;
+    font-weight:300;
+}
+
+.categoryButton {
+    color:black;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+.notfoundContainer {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    padding-top: 5em;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notfoundHeader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.notfoundLink {
+}
+

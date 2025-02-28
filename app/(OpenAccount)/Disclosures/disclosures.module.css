@@ -1,0 +1,36 @@
+﻿.disclosuresContainer {
+
+}
+
+.applicationHeading {
+    text-align:center;
+    font-size:1.2em;
+}
+
+.applicationContainer{
+    display:flex;
+    flex-direction:column;
+    gap:1em;
+    align-items:center;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.applicationItem {
+
+}
+
+.productItem {
+
+}
+
+.productHeading {
+    padding-top: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+}

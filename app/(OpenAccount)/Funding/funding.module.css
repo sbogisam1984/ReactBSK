@@ -1,0 +1,24 @@
+﻿.pageContainer {
+    
+}
+
+.detailContainer {
+    
+}
+
+.fundingContainer {
+    display: grid;
+    grid-template-columns: 25vw auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    justify-content:space-evenly;
+}
+
+.labelContainer {
+    display:flex;
+    flex-direction:column;
+}
+
+.depositInput {
+    justify-self:center;
+}

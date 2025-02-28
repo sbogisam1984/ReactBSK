@@ -1,0 +1,14 @@
+.actionCard {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 1em;
+    background: #fff;
+    border-color: #e9e8e7;
+    border-width: 2px;
+}
+
+.title {
+    font-weight: 900;
+    margin-bottom: 1em;
+    font-size: 1.25em;
+}

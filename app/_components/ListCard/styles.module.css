@@ -1,0 +1,25 @@
+.needsCard {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 1em;
+    background: #fff;
+    border-color: #e9e8e7;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.listItems {
+    padding-left: 2em;
+    padding-bottom: 2em;
+    list-style: disc;
+}
+
+.listItem {
+    
+}

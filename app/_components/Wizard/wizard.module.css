@@ -1,0 +1,40 @@
+.wizardContainer {
+  --step-connector-width: calc(100% - 40px);
+}
+
+.stepConnector {
+  left: calc(-1 * var(--step-connector-width) / 2) !important;
+  right: calc(-1 * var(--step-connector-width) / 2) !important;
+}
+
+.stepConnector span {
+  border-top-width: 3px;
+  border-radius: 1px;
+}
+
+.step:not(:last-child) .stepConnector span {
+  border-color: transparent;
+}
+
+.step .stepLabel {
+  margin-top: -36px;
+}
+
+.step .stepLabel span:first-child {
+  background: rgb(237, 237, 238);
+  border-radius: 50%;
+  padding: 4px;
+  z-index: 1;
+}
+
+.activeStep span:first-child {
+  color: var(--mui-palette-primary-main);
+}
+
+.completedStep span:first-child {
+  color: green;
+}
+
+.step:nth-child(n + 1):nth-child(-n + var(--active-step)) .stepConnector span {
+  border-color: var(--mui-palette-primary-main);
+}
